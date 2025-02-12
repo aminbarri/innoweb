@@ -1,0 +1,10 @@
+.navbar-style{
+    /* background-color: var(--color-accent1); */
+}
+.navbar-nav a{
+    color: var(--color-light2);
+    font-weight: bold;
+}
+.navbar-nav a:hover{
+    color: var(--color-light2);
+}

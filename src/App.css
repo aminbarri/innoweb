@@ -1,5 +1,12 @@
 :root{
-  --color_main:rgb(72, 1, 82);
+  --color-main: #0B3507;
+  --color-secondary: #C85BC1;
+  --color-accent1: #49182E;
+  --color-accent2: #58571D;
+  --color-accent3: #64BB3E;
+  --color-dark: #081317;
+  --color-light: #DFD09F;
+  --color-light2: #F4FBF6;
 
   --font-family-primary: "Poppins", sans-serif;
 

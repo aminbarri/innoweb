@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Permanent+Marker&family=Poppins:wght@300;700&display=swap');
+
+.header-item{
+    color: var(--color-light2) ;
+    /* background-color: var(--color-accent1); */
+    padding:2% 0% 20% 20%;
+}
+.header-item hr{
+    width: 50px;
+    font-size:xx-large;
+    font-weight: 900;
+    color: var(--color-secondary);
+}
+.agency-text{
+    color: var(--color-secondary);
+    font-family: "Bokor", serif;
+    font-size:xx-large;
+    font-weight: 900;
+}
+.btn-read{
+    border-radius:15px ;
+    color: var(--color-light2) ;
+    background-color: var(--color-dark);
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-read:hover{
+    background-color: var(--color-light2) ;
+    color: var(--color-dark);
+}

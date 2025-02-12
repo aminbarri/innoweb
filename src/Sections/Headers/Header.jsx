@@ -1,11 +1,17 @@
 import './header.css'
-
+import {Navbar} from '../../Component/index';
+import {Headeritem} from '../../Component/index';
 const Header =(props)=>{
 
 
     return (
         <>
-        <h1>hello word</h1></>
+        <div className='header'>
+            <Navbar />
+        <Headeritem />
+        </div>
+        
+        </>
     )
 }
 
