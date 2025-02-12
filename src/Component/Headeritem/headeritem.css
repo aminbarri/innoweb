@@ -29,3 +29,17 @@
     background-color: var(--color-light2) ;
     color: var(--color-dark);
 }
+
+.header-item:hover{
+    animation-name: hovertheader;
+    animation-duration: 0.5s;
+}
+@keyframes hovertheader {
+    0% {
+        transform: translate(0, 0);
+        
+    }
+    100% {
+        transform: translate(10px, 10px);
+    }
+}
