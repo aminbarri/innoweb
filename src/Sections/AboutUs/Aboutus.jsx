@@ -1,6 +1,8 @@
 import './aboutus.css';
 import desk from '../../assets/desk.jpg';
 import {Card1} from '../../Component/index';
+import { FaStar } from "react-icons/fa6";
+
 const Aboutus =(props)=>{
 
 
@@ -25,9 +27,19 @@ const Aboutus =(props)=>{
                     </div>
                 </div>
             </div>
-            <div>
-                <Card1 icon='sdfsdf' title='sdfsdf' />
+            <div className='acivite'>
+                <div className='row m-0'>
+                    <Card1  title='Media Production' ><FaStar style={{  fontSize: "100px" }} className='icons' /> </Card1>
+                    <Card1  title='EVENT Management' ><FaStar style={{  fontSize: "100px" }} className='icons' /> </Card1>
+                    <Card1  title='Marketing Solutions' ><FaStar style={{  fontSize: "100px" }} className='icons' /> </Card1>
+                </div>
+                <div className='row m-0'>
+                    <Card1  title='Advertising Solutions' ><FaStar style={{  fontSize: "100px" }} className='icons' /> </Card1>
+                    <Card1  title='Digital Solutions' ><FaStar style={{  fontSize: "100px" }} className='icons' /> </Card1>
+                    <Card1  title='Team Buildin' ><FaStar style={{  fontSize: "100px" }} className='icons' /> </Card1>
+                </div>
             </div>
+            
         </>
     )
 }

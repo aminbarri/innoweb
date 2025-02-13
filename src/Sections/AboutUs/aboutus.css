@@ -23,3 +23,9 @@
     line-height: 1.5; /* Adjust as needed */
 
 }
+.acivite{
+    width: 100%;
+}
+.icons{
+    color: var(--color-light2);
+}

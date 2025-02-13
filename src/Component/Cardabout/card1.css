@@ -1,5 +1,9 @@
 .card_body{
     text-align: center;
-    height: 250px;
+    height: 300px;
     padding: auto;
+    width: 200px;
+}
+.card_body h1{
+    color: var(--color-light2);
 }
