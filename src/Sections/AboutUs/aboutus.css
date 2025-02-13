@@ -1,0 +1,25 @@
+.aboutus{
+    background-color: var(--color-accent1);
+    color: var(--color-light2);
+}
+.aboutus_content{
+    padding:10px 50px 40px 350px;
+}
+.aboutus_title h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900 !important;
+}
+.text_agency{
+    /* height: 300px; */
+    color: var(--color-darker) ;
+    /* padding-top: 50px; */
+
+}
+.about_text h1{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: xx-large;
+    line-height: 1.5; /* Adjust as needed */
+
+}

@@ -31,8 +31,8 @@
 }
 
 .header-item:hover{
-    animation-name: hovertheader;
-    animation-duration: 0.5s;
+    /* animation-name: hovertheader;
+    animation-duration: 0.5s; */
 }
 @keyframes hovertheader {
     0% {
