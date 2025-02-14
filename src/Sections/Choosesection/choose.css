@@ -1,0 +1,16 @@
+.choose{
+    background-color: var( --color-light3);
+    padding-bottom: 50px;
+}
+.title{
+    
+}
+.choose hr{
+    width: 200px;
+}
+.choose p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 40px ;
+}

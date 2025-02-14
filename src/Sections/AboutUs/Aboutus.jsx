@@ -1,6 +1,6 @@
 import './aboutus.css';
 import desk from '../../assets/desk.jpg';
-import {Card1} from '../../Component/index';
+import {Card1 ,Title1} from '../../Component/index';
 import { FaStar } from "react-icons/fa6";
 
 const Aboutus =(props)=>{
@@ -9,9 +9,7 @@ const Aboutus =(props)=>{
     return (
         <>
             <div className='d-flex flex-column  aboutus'>
-                <div className='py-5 aboutus_title'>
-                    <h1>About Us</h1>
-                </div>
+                <Title1 title='About Us' />
                 <div className='d-flex flex-row aboutus_content align-self-stretch'>
                     <div className='px-5 about_text'>
                         <h1>We are <br />

@@ -1,7 +1,7 @@
 
 import './App.css';
-import {Header} from './Sections/index';
-import {Aboutus} from './Sections/index';
+import {Header ,Aboutus , Mission , Choose} from './Sections/index';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -11,6 +11,8 @@ function App() {
     <>
      <Header />
      <Aboutus />
+     <Mission />
+     <Choose />
     </>
   );
 }

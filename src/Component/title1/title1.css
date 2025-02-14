@@ -1,0 +1,7 @@
+.aboutus_title h1{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 750 !important;
+    color: var(--color-light2);
+}

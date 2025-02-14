@@ -5,11 +5,7 @@
 .aboutus_content{
     padding:10px 50px 40px 350px;
 }
-.aboutus_title h1{
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 900 !important;
-}
+
 .text_agency{
     /* height: 300px; */
     color: var(--color-darker) ;
