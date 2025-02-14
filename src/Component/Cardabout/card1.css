@@ -3,6 +3,9 @@
     height: 300px;
     padding: auto;
     width: 200px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .card_body h1{
     color: var(--color-light2);
