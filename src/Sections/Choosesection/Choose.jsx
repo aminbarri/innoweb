@@ -1,5 +1,5 @@
 import './choose.css'
-import {Title1 } from '../../Component/index';
+import {Title1 ,Element1 } from '../../Component/index';
 const Choose =(props)=>{
 
 
@@ -17,6 +17,9 @@ const Choose =(props)=>{
                 For Timeline, it is not just about working with you on a project, 
                 it is more of a partnership to deliver a long-term and everlasting impression and relationship.
             </p>
+         </div>
+         <div>
+            <Element1 />
          </div>
 
         </>
