@@ -6,6 +6,7 @@ const Choose =(props)=>{
     return (
         <>
          <div className='choose d-flex flex-column align-items-center'>
+            
           <Title1 title="Why choose us" color="var(--color-dark)" />
           <hr />
              <p>

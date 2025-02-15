@@ -1,5 +1,7 @@
 import './element.css'
 import { FaStar } from "react-icons/fa6";
+import {Title1} from '../../Component/index';
+
 const Element1 =(props)=>{
 
 
@@ -21,4 +23,23 @@ const Element1 =(props)=>{
     )
 }
 
+const Element2 =(props)=>{
+
+
+    return (
+        <>
+      
+            <div className='mission_section d-flex flex-column align-items-center'>
+             {props.children}
+             <hr />
+             <p>
+                {props.text}
+            </p>
+            </div>
+            
+        </>
+    )
+}
+
 export default Element1;
+export {Element2}
