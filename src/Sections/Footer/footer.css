@@ -1,0 +1,20 @@
+.footer{
+    color: var(--color-light2);
+}
+.footersec1{
+    background-color: var( --color-accent2);
+    width: 100%;
+    margin: 0px !important;
+}
+.titlecontact{
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.footersec2{
+    background-color: var(--color-accent3);
+    width: 100%;
+    height: 80px;
+}
+a{
+    color: var(--color-light2) !important;
+}
