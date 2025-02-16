@@ -18,3 +18,13 @@
     text-align: center;
     width: 700px;
 }
+
+.midlesec{
+    background-color: var(--color-darker);
+    color: var(--color-dark-text);
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

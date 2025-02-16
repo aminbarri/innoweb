@@ -41,5 +41,15 @@ const Element2 =(props)=>{
     )
 }
 
+const Element3=(props)=>{
+    return(
+        <>
+        <div className='midlesec'>
+            {props.title}
+        </div>
+        </>
+    );
+}
 export default Element1;
 export {Element2}
+export {Element3}
