@@ -1,0 +1,31 @@
+.head_top{
+     background-color: var(--color-accent1); 
+        color: var(--color-light2);
+}
+.head_top h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 1000;
+}
+.head_top hr{
+    width: 100px;
+    padding: 20px 0px;
+    
+}
+.head_top p{
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 600px;
+
+}
+.routepage{
+    font-size: 19px;
+    padding-top: 20px;
+}
+.page_home{
+}
+.page_name{
+    padding-bottom: 20px;
+    color: var(--color-page);
+    border-bottom:  solid 2px var(--color-page);
+}

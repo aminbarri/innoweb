@@ -5,7 +5,7 @@ const Navbar =(props)=>{
 
     return (
         <>
-        <nav className="navbar navbar-expand-lg navbar-style">
+        <nav className="navbar navbar-expand-lg navbar-style" style={{backgroundColor:props.color }}>
             <div className="container-fluid px-5">
                 <a className="navbar-brand" href="#"><img src={logo} alt="" width="100px"/></a>
                 
