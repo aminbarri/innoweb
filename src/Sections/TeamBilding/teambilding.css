@@ -1,0 +1,55 @@
+.section_1{
+    color: var(--color-light2);
+    background-color: var(  --color-accent1);
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.section_1 h1{
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+.card_img{
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_img h1{
+    padding-bottom: 40px;
+}
+.card_img p{
+    text-align: center;
+}
+.firstsec{
+ background-image: url('../../assets/horse.jpg');
+ 
+}
+.secendsec{
+    background-image: url('../../assets/horse.jpg');
+
+}
+.section_2{
+    background-color: var(  --color-accent1);
+    color: var(--color-light2);
+
+}
+.text_5{
+  padding: 150px 0px 0px 100px !important;
+}
+.text_5>h1{
+ text-transform: uppercase;
+ font-weight: 1000;
+ font-size: 77px;
+ padding-bottom: 60px;
+}
+.text_5 h1 span{
+    color: var( --color-page);
+}
+.text_5 h2{
+    font-weight: 100;
+    padding-bottom: 50px;
+}
