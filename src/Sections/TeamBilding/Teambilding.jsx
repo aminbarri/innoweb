@@ -21,7 +21,7 @@ const Teambilding=(props) =>{
                         technologies and the most creative minds
                         </p>
                         <div class="overlay">
-                    </div>
+                        </div>
                     </div>
                     <div className='secendsec card_img'>
                     

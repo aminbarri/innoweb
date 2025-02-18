@@ -13,9 +13,11 @@ const Media=()=>{
     return(
         <>
             <div className="row m-0 p-0 media_img">
-                <div className="col p-0">
+                <div className="col p-0 back_img">
+                
                 <Card1  title='Media Production' background={back1} class_secondary='big_box'><GoFileMedia style={{  fontSize: "100px"  }} className='icons' /> </Card1>
-
+                <div class="overlay">
+                </div>
                 </div>
                 <div className="col p-0">
                     <div className="row m-0 p-0">

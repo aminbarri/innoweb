@@ -16,7 +16,7 @@ const Navbar =(props)=>{
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav ">
-                    <Link to='' className="nav-link" href="#">Home</Link>
+                    <Link to='/' className="nav-link" href="#">Home</Link>
                     <Link to='/aboutus' className="nav-link" href="#">About Us</Link>
                     <Link to='' className="nav-link" href="#">Services</Link>
                     <Link to='' className="nav-link" href="#">Production Stages</Link>
