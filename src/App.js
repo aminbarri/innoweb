@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Home ,AboutUs} from './Pages/index';
+import {Home ,AboutUs,ContactUs} from './Pages/index';
 import {BrowserRouter as Router ,Route ,Routes} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,6 +14,7 @@ function App() {
       <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/aboutus' element={<AboutUs />} />
+          <Route path='contact' element={<ContactUs />} />
 
       </Routes>
       </>

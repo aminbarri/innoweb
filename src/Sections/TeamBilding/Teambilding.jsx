@@ -11,7 +11,7 @@ const Teambilding=(props) =>{
             <div className='px-5 section_1'>
                 <h1>OUR Target
                 </h1>
-                <div className='d-flex flex-row'>
+                <div className='d-flex flex-row '>
                     <div className='firstsec  card_img'>
                     
                         <h1>Outstanding Events
