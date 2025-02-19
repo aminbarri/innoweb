@@ -3,6 +3,7 @@ import { Footer} from '../../Sections/index';
 import {Navbar,TopHead,Element2,Title1,BoxContact} from '../../Component/index';
 import { CiLocationOn } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
+import { MdAddLocationAlt } from "react-icons/md";
 
 import { CiHeadphones } from "react-icons/ci";
 
@@ -10,19 +11,24 @@ const ContactUs=()=>{
     return(
         <>
         <div className='contact_page'>
-
+        <div className='header_1'>
         <Navbar />
-        <TopHead title='Contact' description='Get in touch with us!' />
-        <Element2 text=''>
-                    <Title1 title='GET IN TOUCH!' />
-        </Element2>
+         <TopHead title='Contact' description='Get in touch with us!' />
+                <Element2 text=''>
+                            <Title1 title='GET IN TOUCH!' />
+                </Element2>
+        </div>
+        
+        
         <div className='row px-5 m-0'>
         
             <BoxContact title='ADDRESS' info='bd Massira El Khadra -ex Camille, 3° et., Grand Casablanca' color='rgb(98, 199, 194)'>
              <CiLocationOn />
             </BoxContact>
 
-            <BoxContact  color='rgb(148, 28, 138)'></BoxContact>
+            <BoxContact title='ADDRESS 2' info='197, rue des Thermes la Villette, Grand Casablanca' color='rgb(148, 28, 138)'>
+                                <MdAddLocationAlt />
+            </BoxContact>
 
             <BoxContact title='PHONE' info='+212 522 989 661' >
             <CiHeadphones />

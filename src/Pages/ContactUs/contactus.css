@@ -1,7 +1,12 @@
 .contact_page{
     background-color: var(--color-accent1);
 }
-
+.header_1{
+    background-image: url('../../assets/Untitled_design__6_-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
 .msg{
     background-color: var(--color-accent1);
     padding-bottom:70px ;
