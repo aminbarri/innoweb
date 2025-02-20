@@ -7,8 +7,7 @@ const AboutUs =()=>{
         <>
         <div className='header_1'>
             <Navbar color='' />
-            <TopHead title='About Us' description='We’re on a mission to start a conversation with your customers in this fast connected world. 
-            Let’s discover, build and grow your digital business!' />
+            <TopHead title='About Us' description='Our goal is to connect with your customers in today&apos;s fast-paced digital world. Let&apos;s explore, create, and expand your online business together!' />
         </div>
             
             <Element3 title='An All-in-One Agency' />
