@@ -5,10 +5,12 @@ import {Navbar , TopHead,Element3} from '../../Component/index';
 const AboutUs =()=>{
     return(
         <>
-        
-            <Navbar color='var(--color-accent1)' />
+        <div className='header_1'>
+            <Navbar color='' />
             <TopHead title='About Us' description='We’re on a mission to start a conversation with your customers in this fast connected world. 
             Let’s discover, build and grow your digital business!' />
+        </div>
+            
             <Element3 title='An All-in-One Agency' />
             <Media />
             <Element3 title='Team building' />
