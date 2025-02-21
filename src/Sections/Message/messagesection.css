@@ -30,6 +30,8 @@
     border: 2px solid rgb(111, 250, 255);
     margin:50px !important;
     color: var(--color-light2);
+    
+
 }
 input{
     
@@ -56,4 +58,16 @@ textarea{
 .iconbtm{
     font-size: 80px;
     margin-bottom: 15px;
+}
+.box_info{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 992px){
+    .formmessage{
+        flex-direction: column;
+    }
+    .box_info{
+        flex-direction: column;
+    }
 }

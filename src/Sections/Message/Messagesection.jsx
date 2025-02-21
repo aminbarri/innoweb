@@ -15,22 +15,22 @@ const Messagesection =(props)=>{
                 <Element2 text=''>
                     <Title1 title='GET IN TOUCH!' />
                 </Element2>
-                <div className='row px-5 m-0'>
-                 <BoxContact title='ADDRESS' info='bd Massira El Khadra -ex Camille, 3° et., Grand Casablanca' color='rgb(98, 199, 194)'>
-                    <CiLocationOn />
-                </BoxContact>
-    
-                <BoxContact title='ADDRESS 2' info='197, rue des Thermes la Villette, Grand Casablanca' color='rgb(148, 28, 138)'>
-                    <MdAddLocationAlt />
-                </BoxContact>
-    
-                <BoxContact title='PHONE' info='+212 522 989 661' >
-                <CiHeadphones />
-                </BoxContact>
-    
-                <BoxContact title='Mail' info='support@innoweb.com'  color='rgb(226, 83, 0)'>
-                    <CiMail />
-                </BoxContact>
+                <div className='row px-5 m-0 box_info'>
+                    <BoxContact title='ADDRESS' info='bd Massira El Khadra -ex Camille, 3° et., Grand Casablanca' color='rgb(98, 199, 194)'>
+                        <CiLocationOn />
+                    </BoxContact>
+        
+                    <BoxContact title='ADDRESS 2' info='197, rue des Thermes la Villette, Grand Casablanca' color='rgb(148, 28, 138)'>
+                        <MdAddLocationAlt />
+                    </BoxContact>
+        
+                    <BoxContact title='PHONE' info='+212 522 989 661' >
+                    <CiHeadphones />
+                    </BoxContact>
+        
+                    <BoxContact title='Mail' info='support@innoweb.com'  color='rgb(226, 83, 0)'>
+                        <CiMail />
+                    </BoxContact>
                 </div>
                 <div className='row formmessage m-5 py-5'>
                     <div className='col leavemsg d-flex justify-content-center align-items-center'>

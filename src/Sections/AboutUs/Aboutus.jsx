@@ -26,7 +26,7 @@ const Aboutus =(props)=>{
         <>
             <div className='d-flex flex-column  aboutus'>
                 <Title1 title='About Us' />
-                <div className='d-flex flex-row aboutus_content align-self-stretch'>
+                <div className=' aboutus_content '>
                     <div className='px-5 about_text'>
                         <h1>We are <br />
                         INNOWEB AGENCY</h1>
@@ -37,7 +37,7 @@ const Aboutus =(props)=>{
                         </p>
                     </div>
                     <div>
-                        <img src={desk} alt="" width='500px' height='300px'/>
+                        <img src={desk} alt="" width='500px' height='300px' className='image_500_300_head'/>
                     </div>
                 </div>
             </div>

@@ -12,11 +12,11 @@ const Footer =(props)=>{
     return (
         <>
            <div className='footer d-flex flex-column' >
-                <div className='footersec1 row' >
-                    <div className='col' >
-                        <img src={img1} alt="" width=''/>
+                <div className='footersec1  center_section' >
+                    <div className='' >
+                        <img src={img1} alt="" width='100%'/>
                     </div>
-                    <div className='col d-flex flex-column justify-content-center' >
+                    <div className='d-flex flex-column justify-content-center contact_info' >
                         <h1 className='mb-2 titlecontact'>Contact</h1>
                         <div>
                             <h5>Address</h5>
@@ -30,8 +30,8 @@ const Footer =(props)=>{
                         </div>
                     </div>
                 </div>
-                <div className='footersec2 d-flex flex-row  align-items-center   px-5' >
-                    <div className='' style={{ flex: 1, textAlign: 'left' }}>
+                <div className='footersec2    px-5' >
+                    <div className='cpoyright' >
                     © 2025 Developed By Innoweb Copy Rights Reserved 
                     </div>
                     <div className='' style={{ flex: 1, textAlign: 'center' }}>
