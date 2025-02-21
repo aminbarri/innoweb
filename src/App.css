@@ -13,7 +13,7 @@
   --color-page:#00ffc8;
 
   --paadding-mobile-main:10px;
-
+  --text-size-mobile:50px;
   --font-family-primary: "Poppins", sans-serif;
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');

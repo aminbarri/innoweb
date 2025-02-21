@@ -11,7 +11,7 @@ const Teambilding=(props) =>{
             <div className='px-5 section_1'>
                 <h1>OUR Target
                 </h1>
-                <div className='d-flex flex-row '>
+                <div className='d-flex flex-row image_2__'>
                     <div className='firstsec  card_img'>
                     
                         <h1>Outstanding Events
@@ -52,7 +52,7 @@ const Teambilding=(props) =>{
                         </div>
                     </div>
                 </div>
-                <div className='row m-0 sec_2_row'>
+                <div className='row m-0 sec_2_row sec_2__'>
                     <div className='col-lg-6 p-0'>
                         <div className=' text_5'>
                             <h1>Our <span> Vision </span></h1>
