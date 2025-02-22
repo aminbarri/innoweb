@@ -9,8 +9,8 @@ const Mission =(props)=>{
              <Title1 title='Our mission' />
              <hr />
              <p>
-                Timeline aims to exceed the deliverables bar 
-                and create a whole new modernized one that suits the world one currently lives in
+             Timeline strives to surpass expectations and set a new,
+              modern standard that aligns with the ever-evolving world we live in today
             </p>
             </div>
             

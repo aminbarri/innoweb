@@ -31,10 +31,10 @@ const Aboutus =(props)=>{
                         <h1>We are <br />
                         INNOWEB AGENCY</h1>
                         <p className='text_agency'>
-                        Firmly established in MENA region and Canada,
-                         Timeline is a full-fledged media production agency that offers fully inclusive production services. 
-                        The agency has gained its reputation for its creativity, outstanding quality and professionalism.
-                        </p>
+                        With a strong presence in the MENA region and Canada,
+                         Timeline is a full-service media production agency providing comprehensive production solutions. 
+                         Renowned for its creativity, exceptional quality, and professionalism,
+                         Timeline has built a solid reputation in the industry  </p>
                     </div>
                     <div>
                         <img src={desk} alt="" width='500px' height='300px' className='image_500_300_head'/>

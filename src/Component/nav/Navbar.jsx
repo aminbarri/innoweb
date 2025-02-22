@@ -19,9 +19,6 @@ const Navbar =(props)=>{
                 <div className="navbar-nav ">
                     <Link to='/' className="nav-link" href="#">Home</Link>
                     <Link to='/aboutus' className="nav-link" href="#">About Us</Link>
-                    <Link to='' className="nav-link" href="#">Services</Link>
-                    <Link to='' className="nav-link" href="#">Production Stages</Link>
-                    <Link to='' className="nav-link" href="#">Our Clients</Link>
                     <Link to='/contact' className="nav-link" href="#">Contact</Link>   
                 </div>
                 </div>

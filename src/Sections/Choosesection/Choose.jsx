@@ -10,13 +10,14 @@ const Choose =(props)=>{
           <Title1 title="Why choose us" color="var(--color-dark)" />
           <hr />
              <p>
-             Timeline’s team has 10+ years of experience in TV, video, and marketing, 
-             creating everything from news reports, documentaries to innovative digital
-              solutions and live transmissions in both physical and virtual events.
-               The agency’s dedicated team aims to be at the service of your brand 24/7 till you are beyond satisfied.
-            <br /><br />
-                For Timeline, it is not just about working with you on a project, 
-                it is more of a partnership to deliver a long-term and everlasting impression and relationship.
+             With over a decade of experience in TV, video, and marketing,
+              Timeline’s team specializes in creating everything from 
+              news reports and documentaries to cutting-edge digital 
+              solutions and live broadcasts for both physical and virtual events. 
+              Dedicated to your brand’s success, our team is available 24/7 to ensure your complete satisfaction.
+              <br /><br />
+              At Timeline, we don’t just work on projects—we build lasting partnerships,
+               leaving a long-term impact and fostering enduring relationships.
             </p>
          </div>
          <div>
