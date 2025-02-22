@@ -11,7 +11,7 @@
 .formmessage{
     border-radius: 5px;
     border: 2px solid rgb(111, 250, 255);
-    margin:50px !important;
+    margin:50px;
     color: var(--color-light2);
 }
 input{

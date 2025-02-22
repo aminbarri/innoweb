@@ -28,8 +28,12 @@
 .formmessage{
     border-radius: 5px;
     border: 2px solid rgb(111, 250, 255);
-    margin:50px !important;
+    margin:50px;
     color: var(--color-light2);
+    margin: 48px;
+    padding-block: 48px;
+    display: flex;
+    flex-direction: row;
     
 
 }
@@ -54,6 +58,11 @@ textarea{
 }
 .leavemsg{
     text-transform: uppercase;
+    flex: 1 0;
+}
+.from_cls{
+    flex: 1 0;
+    padding-right: var(--paadding-mobile-main);
 }
 .iconbtm{
     font-size: 80px;
@@ -62,12 +71,22 @@ textarea{
 .box_info{
     display: flex;
     flex-direction: row;
+    padding-inline: 48px;
+
 }
 @media screen and (max-width: 992px){
     .formmessage{
         flex-direction: column;
+        padding: var(--paadding-mobile-main);
+        margin:var(--paadding-mobile-main) !important;
     }
     .box_info{
         flex-direction: column;
+        padding-inline: var(--paadding-mobile-main);
     }
+    .from_cls{
+        
+        padding-right: 0px;
+    }
+   
 }

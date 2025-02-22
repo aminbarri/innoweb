@@ -15,7 +15,7 @@ const Messagesection =(props)=>{
                 <Element2 text=''>
                     <Title1 title='GET IN TOUCH!' />
                 </Element2>
-                <div className='row px-5 m-0 box_info'>
+                <div className=' box_info row  m-0 '>
                     <BoxContact title='ADDRESS' info='bd Massira El Khadra -ex Camille, 3° et., Grand Casablanca' color='rgb(98, 199, 194)'>
                         <CiLocationOn />
                     </BoxContact>
@@ -32,13 +32,13 @@ const Messagesection =(props)=>{
                         <CiMail />
                     </BoxContact>
                 </div>
-                <div className='row formmessage m-5 py-5'>
-                    <div className='col leavemsg d-flex justify-content-center align-items-center'>
+                <div className='formmessage  '>
+                    <div className=' leavemsg d-flex justify-content-center align-items-center'>
                         <h1 className=' text-center'>
                             Leave us a<br/> message!
                         </h1>
                     </div>
-                    <div className='col'>
+                    <div className='from_cls'>
                          <form action="" className='d-flex flex-column formsubmit'>
                             <label htmlFor="name">Name</label>
                             <input type="text" name="name" id="" />

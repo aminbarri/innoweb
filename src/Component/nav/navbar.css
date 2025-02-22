@@ -7,3 +7,11 @@
 .navbar-nav a:hover{
     color: var(--color-light2);
 }
+.btn_menu{
+    font-size: xx-large;
+    color: white;
+}
+@media (min-width: 992px){
+    .btn_menu{
+        display: none;}
+}
