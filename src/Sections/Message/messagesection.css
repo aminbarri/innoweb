@@ -13,9 +13,7 @@
     color: var(--color-light2);
 
 }
-.box_msg p{
-  
-}
+
 .box_msg1{
     background-color: burlywood;
 }
@@ -37,9 +35,7 @@
     
 
 }
-input{
-    
-}
+
 input ,textarea{
     background-color: var(--color-accent1);
     margin: 10px 0px !important;
