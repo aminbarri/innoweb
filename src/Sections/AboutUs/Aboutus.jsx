@@ -27,7 +27,7 @@ const Aboutus =(props)=>{
             <div className='d-flex flex-column  aboutus'>
                 <Title1 title='About Us' />
                 <div className=' aboutus_content '>
-                    <div className='px-5 about_text'>
+                    <div className=' about_text'>
                         <h1>We are <br />
                         INNOWEB AGENCY</h1>
                         <p className='text_agency'>

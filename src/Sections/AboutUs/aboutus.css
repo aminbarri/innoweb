@@ -17,6 +17,9 @@
     /* padding-top: 50px; */
 
 }
+.about_text{
+    padding-inline: 48px;
+}
 .about_text h1{
     font-weight: 100;
     text-transform: uppercase;
@@ -39,5 +42,8 @@
     .image_500_300_head{
         width: 100%;
         height: 100%;
+    }
+    .about_text{
+        padding-inline:  var(--paadding-mobile-main);
     }
 }

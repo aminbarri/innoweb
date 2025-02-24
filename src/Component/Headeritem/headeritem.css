@@ -19,7 +19,7 @@
 }
 .btn-read{
     border-radius:15px ;
-    color: var(--color-light2) ;
+    color: var(--color-light2);
     background-color: var(--color-dark);
     text-transform: uppercase;
     text-decoration: none;
@@ -27,7 +27,7 @@
 }
 .btn-read:hover{
     background-color: var(--color-light2) ;
-    color: var(--color-dark);
+    color: var(--color-dark) !important;
 }
 
 .header-item:hover{

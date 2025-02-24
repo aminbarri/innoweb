@@ -20,7 +20,7 @@ const ContactUs=()=>{
         </div>
         
         
-        <div className='row px-5 m-0'>
+        <div className='box_info row  m-0'>
         
             <BoxContact title='ADDRESS' info='bd Massira El Khadra -ex Camille, 3° et., Grand Casablanca' color='rgb(98, 199, 194)'>
              <CiLocationOn />
@@ -39,24 +39,24 @@ const ContactUs=()=>{
             </BoxContact>
             
                 </div>
-                <div className='row formmessage m-5 py-5'>
-            <div className='col leavemsg d-flex justify-content-center align-items-center'>
-                <h1 className=' text-center'>
-                    Leave us a<br/> message!
-                </h1>
-            </div>
-            <div className='col'>
-                    <form action="" className='d-flex flex-column formsubmit'>
-                    <label htmlFor="name">Name</label>
-                    <input type="text" name="name" id="" />
-                    <label htmlFor="email">Email</label>
-                    <input type="email" name="email" id="" />
-                    <label htmlFor="message">Message</label>
-                    <textarea name="message" id=""></textarea>
-                    <input type="submit" value="Submit" />
-                    </form>
-            </div>
-        </div>
+                <div className='formmessage  '>
+                    <div className=' leavemsg d-flex justify-content-center align-items-center'>
+                        <h1 className=' text-center'>
+                            Leave us a<br/> message!
+                        </h1>
+                    </div>
+                    <div className='from_cls'>
+                         <form action="" className='d-flex flex-column formsubmit'>
+                            <label htmlFor="name">Name</label>
+                            <input type="text" name="name" id="" />
+                            <label htmlFor="email">Email</label>
+                            <input type="email" name="email" id="" />
+                            <label htmlFor="message">Message</label>
+                            <textarea name="message" id=""></textarea>
+                            <input type="submit" value="Submit" />
+                         </form>
+                    </div>
+                </div>
         <Footer />
         </div>
        
