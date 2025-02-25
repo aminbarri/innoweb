@@ -6,4 +6,5 @@ export {default as Element1} from './elementofchoose/Element1';
 export {Element2} from './elementofchoose/Element1';
 export {Element3} from './elementofchoose/Element1';
 export {default as BoxContact} from './Box_contact/BoxContact';
-export {default as TopHead} from '../Sections/TopHead/TopHead';
+export {default as TopHead} from '../Sections/TopHead/TopHead'; //Need to edit it
+export {default as Loading} from './Loading/loading'
