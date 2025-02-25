@@ -12,23 +12,20 @@ const Home=(props)=>{
     useEffect(() => {
         setTimeout(() => {
         setLoading(false); 
-        }, 2000);
+        }, 3000);
     }, []);
     
     return(
         <>
-        {loading ? (
-        <Loading />
-        ) : (<>
+          
+            {loading && <Loading />}
             <Header />
             <Aboutus />
             <Mission />
             <Choose />
             <Messagesection />
             <Footer />
-        </>
-            
-          )}
+       
         </>
     );
 
